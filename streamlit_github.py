@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load models
-placement_model = joblib.load("artifacts/placement_model.pkl")
-salary_model = joblib.load("artifacts/salary_model.pkl")
+placement_model = joblib.load("placement_model.pkl")
+salary_model = joblib.load("salary_model.pkl")
 
 st.set_page_config(page_title="Student Placement & Salary Prediction", layout="wide")
 
