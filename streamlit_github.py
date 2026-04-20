@@ -1,4 +1,5 @@
 import streamlit as st
+st.write("App Loaded")
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
